@@ -1,5 +1,5 @@
 // Replace with the email address where you want to receive customer enquiries.
-const BUSINESS_EMAIL = "yourbusiness@email.com";
+const BUSINESS_EMAIL = "Artbydunga@email.com";
 const menuButton = document.querySelector(".menu");
 const nav = document.querySelector("header nav");
 menuButton.addEventListener("click", () => {
