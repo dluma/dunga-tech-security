@@ -1,5 +1,5 @@
 // Replace with the email address where you want to receive customer enquiries.
-const BUSINESS_EMAIL = "Artbydunga@email.com";
+const BUSINESS_EMAIL = "Artbydunga@gmail.com";
 const menuButton = document.querySelector(".menu");
 const nav = document.querySelector("header nav");
 menuButton.addEventListener("click", () => {
@@ -21,7 +21,7 @@ document.querySelectorAll(".filters button").forEach(button => button.addEventLi
 document.getElementById("year").textContent = new Date().getFullYear();
 document.getElementById("quoteForm").addEventListener("submit", event => {
   event.preventDefault();
-  if (BUSINESS_EMAIL === "yourbusiness@email.com") {
+  if (BUSINESS_EMAIL === "Artbydunga@gmail.com") {
     alert("Please add your business email in script.js before using the enquiry form.");
     return;
   }
